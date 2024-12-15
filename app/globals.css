@@ -9,6 +9,20 @@
   src: url(/Fonts/Accent/Callisa-Beauty-BF6639cfd4336e6.ttf);
 }
 
+:root {
+  --bg-color: #fefae080;
+  --text-color: black;
+  --accent-primary: #ade8f4;
+  --accent-secondary: #00bfb3;
+}
+
+html.dark {
+  --bg-color: black;
+  --text-color: white;
+  --accent-primary: #2563eb;
+  --accent-secondary: #00bfb3;
+}
+
 body {
   height: 200vh;
 }

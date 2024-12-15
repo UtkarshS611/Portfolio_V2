@@ -16,10 +16,10 @@ const Header = () => {
     <header className="flex justify-between p-6 items-center relative">
       <div className="font-Accent">Utkarsh</div>
       <div className="md:flex w-full justify-center gap-8 hidden">
-        <div className="hover:text-blue-600">About</div>
-        <div className="hover:text-blue-600">Skills</div>
-        <div className="hover:text-blue-600">Work</div>
-        <div className="hover:text-blue-600">Contact</div>
+        <a className="hover:text-AccentSecondary cursor-pointer">About</a>
+        <a className="hover:text-AccentSecondary cursor-pointer">Skills</a>
+        <a className="hover:text-AccentSecondary cursor-pointer">Work</a>
+        <a className="hover:text-AccentSecondary cursor-pointer">Contact</a>
       </div>
       <ThemeSwitcher />
       <div className="hidden md:flex items-center gap-4">
