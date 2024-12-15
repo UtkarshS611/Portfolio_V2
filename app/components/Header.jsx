@@ -33,7 +33,7 @@ const Header = () => {
         </a>
       </div>
       <Menu className="block md:hidden z-[100]" onClick={handleMenuToggle} />
-      <div className={`absolute block md:hidden ${isMenuOpen? "h-screen w-[50%] right-0 top-0 opacity-100 z-[999]" : "h-6 w-6 right-6 opacity-0 z-[99]"} bg-white transition-all duration-200`}>
+      <div className={`absolute block md:hidden ${isMenuOpen? "h-screen w-[50%] right-0 top-0 opacity-100 z-[999]" : "h-6 w-6 right-6 opacity-0 z-[99]"} bg-white transition-all duration-300`}>
         <X className="text-black absolute right-6 top-6" onClick={handleMenuToggle} />
       </div>
     </header>

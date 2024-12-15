@@ -24,7 +24,7 @@ html.dark {
 }
 
 body {
-  height: 200vh;
+  background-color: var(--bg-color);
 }
 
 ::-webkit-scrollbar {
