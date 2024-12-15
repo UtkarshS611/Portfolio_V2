@@ -15,7 +15,7 @@ const Home = () => {
           <div>I help founders transform</div>
           <div className="flex md:items-end items-center gap-4 flex-col md:flex-row">
             ideas into impactful
-            <span className="font-AccentPrimary text-2xl">websites</span>
+            <span className="font-Accent text-2xl">websites</span>
           </div>
         </div>
         <div className="md:mt-10 mt-6 flex items-center gap-6">
