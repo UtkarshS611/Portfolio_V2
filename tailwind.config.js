@@ -12,6 +12,11 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      Accent: "Accent",
+      Roboto: ['Roboto', 'sans-serif'],
+    },
   },
   plugins: [],
+  darkMode: 'class',
 };
