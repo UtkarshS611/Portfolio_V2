@@ -14,7 +14,7 @@ const Home = () => {
         <div className="animate flex flex-col justify-center items-center font-light mt-4 text-3xl sm:text-5xl gap-1 font-semi-bold">
           <div>I help founders transform</div>
           <div className="flex md:items-end items-center gap-4 flex-col md:flex-row">
-            ideas into impactful{" "}
+            ideas into impactful
             <span className="font-Accent text-2xl">websites</span>
           </div>
         </div>
