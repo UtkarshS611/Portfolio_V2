@@ -23,11 +23,11 @@ const Header = () => {
       </div>
       <ThemeSwitcher />
       <div className="hidden md:flex items-center gap-4">
-        <a className="flex items-center gap-2">
+        <a className="flex items-center gap-2" href="www.linkedin.com/in/utkarsh-singh-5630b42aa">
           LinkedIn
           <GoArrowUpRight />
         </a>
-        <a className="flex items-center gap-2">
+        <a className="flex items-center gap-2" href="https://drive.google.com/file/d/1q25HSTjPWP8skAQ9JE5f9RTdrcS7B3ND/view?usp=sharing">
           Resume
           <GoArrowUpRight />
         </a>
