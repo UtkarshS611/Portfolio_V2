@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex justify-between p-6 items-center relative">
+    <header className="flex justify-between p-6 items-center">
       <div className="font-Accent">Utkarsh</div>
       <div className="md:flex w-full justify-center gap-8 hidden">
         <a className="hover:text-AccentSecondary cursor-pointer">About</a>
