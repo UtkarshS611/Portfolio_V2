@@ -1,4 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Projects = () => {
@@ -41,7 +42,7 @@ const Projects = () => {
           className="mt-8 md:mt-16 flex flex-col-reverse items-center justify-center xl:flex-row lg:px-48 md:px-36 sm:px-24 px-4 gap-24"
         >
           <div className="w-full dark:bg-white/10 bg-black/10 relative">
-            <img src={project.img} alt="" className="object-cover"/>
+            <Image src={project.img} width={600} height={300} alt="Project Preview" className="object-cover"/>
           </div>
           <div className="w-full space-y-4">
             <h2 className="text-lg font-bold">{project.title}</h2>

@@ -3,7 +3,6 @@
 import React from "react";
 import { BsFiles } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-import Skills from "./Skills";
 
 const Hero = () => {
   const [copied, setCopied] = React.useState(false);
