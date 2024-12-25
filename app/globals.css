@@ -8,8 +8,6 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #202020;
   --selection: #469d895a;
   --list: #469d89;
 }
@@ -23,11 +21,6 @@ html.dark {
 
 *::selection{
   background-color: var(--selection);
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
 }
 ::-webkit-scrollbar {
   display: none;

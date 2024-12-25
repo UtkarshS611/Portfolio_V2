@@ -21,9 +21,9 @@ const About = () => {
     <div className='flex flex-col-reverse xl:flex-row items-center lg:px-48 md:px-36 sm:px-24 px-4 gap-24 h-screen'>
         <div>
             {theme === 'dark' ? (
-                <Image src='/AboutDark.svg' width={500} height={350} alt='About'/>
+                <Image height={300} width={600} src='/AboutDark.svg' alt='About'/>
             ) : (
-                <Image src='/AboutLight.svg' width={500} height={350} alt='About'/>
+                <Image height={300} width={600} src='/AboutLight.svg' alt='About'/>
             )}
         </div>
         <div className='w-full space-y-4'>
