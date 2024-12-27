@@ -12,6 +12,14 @@ const Projects = () => {
       img: "/ShopSphere.png",
       github: "https://www.google.com",
       liveLink: "https://www.google.com",
+      tech: {
+        first: "Next.js",
+        second: "Typescript",
+        third: "Prisma",
+        fourth: "Stripe",
+        fifth: "Tailwind CSS",
+        sixt: ''
+      }
     },
     {
       title: "MedSync",
@@ -20,6 +28,14 @@ const Projects = () => {
       img: "/MedSync.png",
       github: "https://github.com/UtkarshS611/MedSync",
       liveLink: "https://medsync-five.vercel.app/",
+      tech: {
+        first: "React.js",
+        second: "Typescript",
+        third: "Google Gemini",
+        fourth: "ShadCN",
+        fifth: "Tailwind CSS",
+        sixth: ''
+      }
     },
     {
       title: "Celestia",
@@ -28,6 +44,23 @@ const Projects = () => {
       img: "/Celestia.png",
       github: "https://github.com/UtkarshS611/Celestia",
       liveLink: "https://celestia-nu.vercel.app/",
+      tech: {
+        first: "React.js",
+        second: "Javascript",
+        third: "Nasa API",
+      }
+    },
+    {
+      title: "TravLog",
+      description:
+        "A travel-focused website built using HTML and CSS with modern web development practices, featuring a clean and simple UI/UX and fully responsive design.",
+      img: "/TravLog.png",
+      github: "https://github.com/UtkarshS611/TRAVLOG_project",
+      liveLink: "https://travlog-project.vercel.app/",
+      tech: {
+        first: "HTML",
+        second: "CSS",
+      }
     },
   ];
 
@@ -49,16 +82,16 @@ const Projects = () => {
             <p>{project.description}</p>
             <p>Tech stack</p>
             <div className="flex gap-4 aboutList">
-              <ul className="list-disc list-inside">
-                <li>JavaScript (ES6+)</li>
-                <li>Next.js</li>
-                <li>Framer Motion</li>
-              </ul>
-              <ul className="list-disc list-inside">
-                <li>MongoDb</li>
-                <li>Prisma</li>
-                <li>Typescript</li>
-              </ul>
+              {project.tech.first && <ul className="list-disc list-inside">
+                <li>{project.tech.first}</li>
+                <li>{project.tech.second}</li>
+                <li>{project.tech.third}</li>
+              </ul>}
+              {project.tech.fourth &&<ul className="list-disc list-inside">
+                <li>{project.tech.fourth}</li>
+                <li>{project.tech.fifth}</li>
+                {project.tech.sixth && <li>{project.tech.sixth}</li>}
+              </ul>}
             </div>
             <div className="flex gap-4">
               <a

@@ -8,7 +8,7 @@ const Contact = () => {
         <h2 className='text-4xl sm:text-2xl md:text-4xl lg:text-7xl xl:text-9xl'>Have an Idea?</h2>
         <p>Drop me a email:</p>
         <a href="mailto:utkarsh49931@gmail.com" className='uppercase mt-3'>
-            Utkarsh.singh6113@gmail.com
+            utkarsh49931@gmail.com
         </a>
     </div>
     <footer className='w-full md:max-w-[70%] flex flex-col md:flex-row justify-between items-center mx-auto md:border-t-[1px] py-2 border-black/80 dark:border-white'>

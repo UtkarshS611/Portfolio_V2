@@ -10,7 +10,7 @@ const Hero = () => {
 
   const copyToClipboard = async () => {
     try {
-      const text = "utkarsh.singh6113@gmail.com";
+      const text = "utkarsh49931@gmail.com";
       await navigator.clipboard.writeText(text);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="md:mt-10 mt-6 flex items-center gap-6">
-        <a target="_blank" href="https://drive.google.com/file/d/1q25HSTjPWP8skAQ9JE5f9RTdrcS7B3ND/view?usp=sharing" className="border-none flex bg-[#469d89]/20 dark:bg-[#bd68ee]/10 hover:bg-[#469d89] dark:hover:bg-[#bd68ee] duration-200 justify-center items-center pr-1 pl-6 py-1 backdrop-blur-3xl rounded-full gap-2 border-[0.5px]">
+        <a target="_blank" href="https://drive.google.com/file/d/1T89iomGEpSQ1EgaOczCtLX8HjbxDXcQX/view?usp=sharing" className="border-none flex bg-[#469d89]/20 dark:bg-[#bd68ee]/10 hover:bg-[#469d89] dark:hover:bg-[#bd68ee] duration-200 justify-center items-center pr-1 pl-6 py-1 backdrop-blur-3xl rounded-full gap-2 border-[0.5px]">
           My Resume
           <span className="font-light bg-[#469d89] dark:bg-[#bd68ee] rounded-full flex items-center justify-center p-[0.75rem]">
             <FaArrowRight />

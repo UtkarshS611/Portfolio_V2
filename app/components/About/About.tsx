@@ -44,6 +44,11 @@ const About = () => {
                     <li>Prisma</li>
                     <li>Typescript</li>
                 </ul>
+                <ul className='list-disc list-inside'>
+                    <li>Redux</li>
+                    <li>Appwrite</li>
+                    <li>Auth.js</li>
+                </ul>
             </div>
         </div>
     </div>
