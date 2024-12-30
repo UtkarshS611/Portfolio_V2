@@ -9,16 +9,12 @@ import Socials from "./components/Socials/Socials";
 const Home = () => {
   return (
     <main className="rounded-2xl p-3 relative overflow-hidden">
-      <Socials/>
+      <Socials />
       <Navbar />
-      <section>
-        <Hero />
-      </section>
-      <section>
-        <About />
-      </section>
+      <Hero />
+      <About />
       <Projects />
-      <Contact/>
+      <Contact />
     </main>
   );
 };

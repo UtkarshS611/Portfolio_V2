@@ -18,7 +18,7 @@ const About = () => {
       }
 
   return (
-    <div className='flex flex-col-reverse xl:flex-row items-center lg:px-48 md:px-36 sm:px-24 px-4 gap-24 h-screen'>
+    <div className='flex flex-col-reverse xl:flex-row items-center lg:px-48 md:px-36 sm:px-24 px-4 gap-24 min-h-screen'>
         <div>
             {theme === 'dark' ? (
                 <Image height={300} width={600} src='/AboutDark.svg' alt='About'/>

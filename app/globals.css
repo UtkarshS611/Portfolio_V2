@@ -30,11 +30,7 @@ main {
   background-image: url('/bgNoise.png');
 }
 
-.projects {
-  ::-webkit-scrollbar {
-    display: none;
-  }
-}
+.pz
 
 .aboutList > ul > li::marker{
   color: var(--list);
