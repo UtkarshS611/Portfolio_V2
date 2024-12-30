@@ -1,6 +1,6 @@
 import OrbitingCircles from "@/components/ui/orbiting-circles";
 
-export function OrbitingCirclesDemo() {
+export function Skills() {
   return (
     <div className="relative flex h-[500px] flex-col items-center justify-center">
       <span className="text-[10rem] text-transparent">Circles</span>

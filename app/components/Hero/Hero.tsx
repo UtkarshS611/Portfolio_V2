@@ -3,7 +3,6 @@
 import React from "react";
 import { BsFiles } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa";
-import { OrbitingCirclesDemo } from "../Skills/Skills";
 
 const Hero = () => {
   const [copied, setCopied] = React.useState(false);
@@ -19,13 +18,13 @@ const Hero = () => {
     }
   };
   return (
-    <div className="pt-72 flex flex-col items-center relative">
+    <div className="flex flex-col items-center relative  min-h-screen justify-center">
       <div className="h-72 w-[25vw] absolute bg-[#469d89] dark:bg-[#bd68ee] blur-[230px] rounded-full top-0 right-0" />
       <div className="h-72 w-[25vw] absolute bg-[#469d89] dark:bg-[#bd68ee] blur-[230px] rounded-full bottom-0 left-0" />
-      <div className="font-light">
+      <div className="font-light text-center">
         Hello👋 I&apos;m Utkarsh, a Web developer
       </div>
-      <div className="animate flex flex-col justify-center items-center font-light mt-4 text-3xl sm:text-5xl gap-1 font-semi-bold">
+      <div className="animate flex flex-col justify-center items-center font-light mt-4 text-3xl sm:text-5xl gap-1 font-semi-bold text-center">
         <div>I help founders transform</div>
         <div className="flex md:items-end items-center gap-4 flex-col md:flex-row">
           ideas into impactful
@@ -50,10 +49,6 @@ const Hero = () => {
             <span>{copied ? "Copied to clipboard" : "Copy email"}</span>
           </div>
         </button>
-      </div>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 pt-32 w-full">
-        <p className="text-4xl">Things I&apos;m good at</p>
-        <OrbitingCirclesDemo/>
       </div>
     </div>
   );
